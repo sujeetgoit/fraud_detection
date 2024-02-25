@@ -13,3 +13,31 @@ git push -u origin master
 
 
 git pull --rebase origin
+
+$ git log
+$ git revert HEAD
+[master 41d437a] Revert "add a new function sum"
+ 2 files changed, 1 insertion(+), 10 deletions(-)
+ delete mode 100644 test.txt
+
+
+$ git log --oneline
+a01b7b1 (HEAD -> master)  added division function
+23a33ce corrected code and added new function
+41d437a Revert "add a new function sum"
+d1a1835 add a new function sum
+2c9b594 (origin/master) added ne line to Git_commands
+cfb3b2e adding new file Data Processing
+14a0dbd Create Git_commands
+2a1b991 Test commit README.md
+
+CISCO+sujeetk@CSCO-W-PF3R0G6H MINGW64 ~/fraud_detection (master)
+$ git reset --hard 2c9b594
+HEAD is now at 2c9b594 added ne line to Git_commands
+
+CISCO+sujeetk@CSCO-W-PF3R0G6H MINGW64 ~/fraud_detection (master)
+$ git log --oneline
+2c9b594 (HEAD -> master, origin/master) added ne line to Git_commands
+cfb3b2e adding new file Data Processing
+14a0dbd Create Git_commands
+2a1b991 Test commit README.md

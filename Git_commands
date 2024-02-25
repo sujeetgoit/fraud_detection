@@ -10,3 +10,6 @@ git commit -m "first commit"
 git branch
 git remote add origin https://github.com/sajankedia/fraud_detection.git
 git push -u origin master
+
+
+git pull --rebase origin

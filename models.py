@@ -8,3 +8,5 @@ def models2():
 
 def models3():
     print("model3")
+
+print("Model2")

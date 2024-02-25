@@ -3,6 +3,7 @@ git init
 git config user.name sujeetgoit
 
 git config user.email sujeet.goit@gmail.com
+git status
 
 git add README.md
 git commit -m "first commit"
